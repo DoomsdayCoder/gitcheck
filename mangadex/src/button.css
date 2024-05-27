@@ -1,0 +1,22 @@
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding-inline: clamp(2rem, 2vw, 2.5rem);
+    background: hsl(var(--popBtn)) !important;
+    background-size: 120% 120%;
+    background-position: center;
+    border: none;
+    transition: opacity 200ms ease-in-out, color 200ms 50ms ease-in-out, text-shadow 300ms 50ms ease-in-out;
+}
+
+.btn-primary:hover {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-shadow: var(--txtShade);
+}
+
+.btn-primary>i {
+    color: var(--bs-body-bgcrud-links);
+}
